@@ -1,0 +1,12 @@
+.subHeadingSection{padding: 0 29px; margin: 0px; position: relative;}
+.subHeadingSection h2{color: #fff; font-weight:300; font-family: 'Nunito Sans', sans-serif; padding: 50px 0 0 0; font-size: 44px; line-height: 60px;}
+.subHeadingSection h2::after{content: ""; position: absolute; left: 30px; border-top: solid 1px #818181; bottom: -30px; width: calc(100% - 65%);}
+.loginTxt{margin:0; padding: 40px 0 0 19px;}
+.loginTxt h4{font-family: 'Nunito Sans', sans-serif; font-size: 32px; line-height: 44px; font-weight: 400; color: #fff;}
+.singInBx{margin: 0px; padding: 0px 20px; color:#FFF;}
+.singInBx ion-item{height: 100%;}
+.singInBx label, .singInBx input{padding: 0px; margin: 0; background: transparent; color:#fff;}
+.boderCls{--placeholder-color: #fff !important; --placeholder-opacity: 1 !important; font-family: 'Nunito Sans', sans-serif; font-size: 16px; line-height: 22px; background-color: rgba(0, 0, 0, 0.5); border: solid 1px #c0c0c0; margin: 10px 0 20px 0; color: #ffffff !important; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;}
+.fgCls {text-align: center;}
+.fgCls a {color: #f5b300; display: inline-block; text-align: center; text-decoration: none;}
+.signinBtn .ion-color-warning {text-transform: uppercase; font-size: 18px;}

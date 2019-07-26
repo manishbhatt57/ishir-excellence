@@ -1,0 +1,34 @@
+// http://ionicframework.com/docs/theming/
+@import '~@ionic/angular/css/core.css';
+@import '~@ionic/angular/css/normalize.css';
+@import '~@ionic/angular/css/structure.css';
+@import '~@ionic/angular/css/typography.css';
+@import '~@ionic/angular/css/display.css';
+@import '~@ionic/angular/css/padding.css';
+@import '~@ionic/angular/css/float-elements.css';
+@import '~@ionic/angular/css/text-alignment.css';
+@import '~@ionic/angular/css/text-transformation.css';
+@import '~@ionic/angular/css/flex-utils.css';
+@import '~@ionic/angular/css/flex-utils.css';
+
+body {font-family: 'Nunito Sans', sans-serif !important;}
+* {font-family: 'Nunito Sans', sans-serif !important;}
+.mainBx {
+    margin: 0px; padding: 0px; background: url(../src/assets/images/bg-img.png) top left no-repeat; height: 100vh; width: 100%; background-size: 100%; overflow: auto;
+    ion-content {
+        &.login_screen {
+            ion-img {
+                background: none;
+                img {
+                    display: block; height: 200px;
+                }
+            }
+        }
+    }
+}
+.label-stacked {font-size: 18px !important; line-height: 25px; font-weight: 300; font-family: 'Nunito Sans', sans-serif;}
+.native-input {padding: 13px 0 14px 25px !important; background: rgba(0, 0, 0, 0.25) !important;}
+.transparent {background: transparent !important;}
+.logo{width: 100%; text-align: left; padding: 40px 0 0 30px; position: relative;}
+.logo::after{content: ""; position: absolute; left: 30px; border-top: 1px solid rgba(255, 255, 255, 0.25); bottom: -30px; width: calc(100% - 60px);}
+.signin_btn{height:48px !important; --border-radius: 4px;}

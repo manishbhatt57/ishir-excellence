@@ -29,6 +29,6 @@ body {font-family: 'Nunito Sans', sans-serif !important;}
 .label-stacked {font-size: 18px !important; line-height: 25px; font-weight: 300; font-family: 'Nunito Sans', sans-serif;}
 .native-input {padding: 13px 0 14px 25px !important; background: rgba(0, 0, 0, 0.25) !important;}
 .transparent {background: transparent !important;}
-.logo{width: 100%; text-align: left; padding: 40px 0 0 30px !important; position: relative;}
+.logo{width: 100%; text-align: left; padding: 40px 0 0 30px; position: relative !important;}
 .logo::after{content: ""; position: absolute; left: 30px; border-top: 1px solid rgba(255, 255, 255, 0.25); bottom: -30px; width: calc(100% - 60px);}
 .signin_btn{height:48px !important; --border-radius: 4px;}
